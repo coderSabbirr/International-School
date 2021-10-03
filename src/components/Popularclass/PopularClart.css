@@ -1,0 +1,11 @@
+.backgound-img {
+    margin-top: 50px;
+    background-image: url(http://entiretimes.com/html/school/images/class-bg.jpg);
+    padding: 100px;
+}
+.popular-class {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
