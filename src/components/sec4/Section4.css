@@ -1,0 +1,27 @@
+.we-best {
+    text-align: center;
+    background-image: url(http://entiretimes.com/html/school/images/choice-bg.jpg);
+    padding: 120px;
+}
+.we-best h1 {
+color: #56225e;
+font-size: 48px;
+font-weight: bold;
+padding-top:20px;
+}
+.contuct-btn {
+    background-color:#ee3131;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.6s;
+
+}
+.contuct-btn:hover {
+    background-color:black;
+    
+
+}
