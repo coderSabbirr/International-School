@@ -12,3 +12,10 @@
     text-decoration: none;
     color: aliceblue;
 }
+.copyright {
+    text-align: center;
+    background-color: #42495B;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}

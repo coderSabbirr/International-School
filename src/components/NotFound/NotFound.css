@@ -1,0 +1,50 @@
+.no-found {
+    text-align: center;
+    color: #42495b;
+    padding: 150px;
+}
+.no-found h1{
+   font-size:13rem;
+   line-height: 1;
+
+}
+.no-found h3{
+   font-size:3rem;
+   line-height: 1;
+   margin-top: 30px;
+
+}
+.back-home-btn {
+background-color: #04D2C8;
+padding: 15px 45px;
+margin-top:30px;
+border:none;
+border-radius: 45px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+.apply-sec {
+     background-color:#04D2C8 ;
+     padding: 60px;
+     
+}
+.apply-sec-content {
+    font-size:  2.5rem;
+    font-weight: bold;
+     color: white;
+     margin-left: 20%;
+}
+.apply-sec-btn {
+    margin-left:30px ;
+    border: none;
+    padding: 13px 50px;
+    border-radius: 45px;
+    color:black;
+   font-weight: 600;
+}
+.apply-sec-btn:hover {
+    background-color: #42495b;
+    color:white;
+   
+}

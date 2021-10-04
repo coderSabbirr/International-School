@@ -32,9 +32,9 @@ const Footer = () => {
                  <p><a href="..">Degree Programs</a></p>
                  <p><a href="..">Blogs</a></p>
              </div>
-             
-           
+            
             </div>
+            <p className="copyright">Copyright © International School System 2020. All Rights Reserved</p>
         </div>
     );
 };
