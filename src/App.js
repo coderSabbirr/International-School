@@ -1,3 +1,4 @@
+import React,{ useEffect, useState } from 'react';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
@@ -10,9 +11,21 @@ import NotFound from './components/NotFound/NotFound';
 import Teachers from './components/Teachers/Teachers';
 
 
+export const MainContext = React.createContext();
+
 function App() {
+  // load data 
+  const[mainCarts,setMainCarts]= useState([])
+  useEffect(()=> {
+      fetch('./fakeData.JSON')
+      .then(res => res.json())
+      .then(data => setMainCarts(data))
+      
+  },[])
+
   return (
-    <div className="App">
+    <MainContext.Provider value={mainCarts}>
+      <div className="App">
       <Router>
         <Header></Header>
         <Switch>
@@ -38,12 +51,14 @@ function App() {
               <NotFound></NotFound>
           </Route>
         </Switch>
+        
         <Footer></Footer>
         
       </Router>
       
       
     </div>
+    </MainContext.Provider>
   );
 }
 

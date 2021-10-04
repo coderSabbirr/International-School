@@ -1,27 +1,30 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useContext} from 'react';
+import { MainContext } from '../../App';
 import Popular from '../popular/Popular';
 import './PopularClart.css'
 
+
+
 const PopularClart = () => {
-    const[popularCarts,setPopularCarts]= useState([])
-    useEffect(()=>{
-        fetch('./fakeData.JSON')
-        .then(res => res.json())
-        .then(data => setPopularCarts(data))
-    },[])
+    const  mainCarts = useContext(MainContext);
+   
     return (
-        <div className="backgound-img">
+            <div className="backgound-img">
             <h1 className="popular-class">Our Popular Classes</h1>
             <div className="d-flex justify-content-center mt-5">
             {
-                popularCarts.slice(0,3).map(popularCart => <Popular
+              
+              mainCarts.slice(0,3).map(popularCart => <Popular
                 key={popularCart.key}
                     popularCart={popularCart}
+                    
                 ></Popular>)
             }
             </div>
             
         </div>
+        
+       
     );
 };
 

@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
+import { MainContext } from '../../App';
 import Classe from '../Classe/Classe';
-import './Classes.css'
 
+
+import './Classes.css'
 const Classes = () => {
-    const[classes,setClasses]=useState([])
-    useEffect(()=>{
-        fetch('./fakeData.JSON')
-        .then(res => res.json())
-        .then(data => setClasses(data))
-    },[])
+    const  mainCarts = useContext(MainContext);
 
     return (
         <div className="classes">
         <h1 className="classes-bg">OUR CLASSES</h1>
         <div className=" all-classe mt-5 container">
         {
-      classes.map(allClass=><Classe allClass={allClass} key={allClass.key} ></Classe>)
+      mainCarts.map(allClass=><Classe allClass={allClass} key={allClass.key} ></Classe>)
         }
         </div>
         </div>
