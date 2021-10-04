@@ -1,6 +1,7 @@
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Blogs from './components/Blogs/Blogs';
 import Classes from './components/Classes/Classes';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -30,6 +31,9 @@ function App() {
           <Route path="/teachers">
             <Teachers></Teachers>
           </Route>
+      <Route path="/blogs">
+        <Blogs></Blogs>
+      </Route>
           <Route path="*">
               <NotFound></NotFound>
           </Route>

@@ -1,0 +1,19 @@
+.blogs {
+    margin-bottom: 100px;
+    
+}
+.blogs h1 {
+    color: steelblue;
+
+}
+.blogs img {
+    margin-top: 80px;
+
+}
+.blogs-title {
+    text-align: center;
+    background-image: url(http://entiretimes.com/html/school/images/inner_title_bg.jpg);
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
