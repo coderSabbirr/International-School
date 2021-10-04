@@ -1,4 +1,4 @@
-## Project Name: INTERNATIONAL SCHOOL
+## Project Name: INTERNATIONAL SCHOOL SYSTEM
 ## project Live : https://international-school-education-sabbir.netlify.app/
 
 

@@ -14,7 +14,7 @@ const PopularClart = () => {
             <div className="d-flex justify-content-center mt-5">
             {
               
-              mainCarts.slice(0,3).map(popularCart => <Popular
+              mainCarts.slice(0,4).map(popularCart => <Popular
                 key={popularCart.key}
                     popularCart={popularCart}
                     
