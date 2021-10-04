@@ -1,0 +1,50 @@
+[
+    {
+        "key":"1ter",
+        "name":"Stella Roffin",
+        "title":"Art teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers01.jpg"
+    },
+    {
+        "key":"2ter",
+        "name":"Chris Miller",
+        "title":"Mathematic",
+        "img":"http://entiretimes.com/html/school/images/teachers02.jpg"
+    },
+    {
+        "key":"3ter",
+        "name":"Jesica Matt",
+        "title":"English Teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers03.jpg"
+    },
+    {
+        "key":"4ter",
+        "name":"Lena Bodie",
+        "title":"Science Teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers04.jpg"
+    },
+    {
+        "key":"5ter",
+        "name":"Chris Miller",
+        "title":"Mathematic",
+        "img":"http://entiretimes.com/html/school/images/teachers02.jpg"
+    },
+    {
+        "key":"6ter",
+        "name":"Lena Bodie",
+        "title":"Science Teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers04.jpg"
+    },
+    {
+        "key":"7ter",
+        "name":"Stella Roffin",
+        "title":"Art teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers01.jpg"
+    },
+    {
+        "key":"8ter",
+        "name":"Jesica Matt",
+        "title":"English Teacher",
+        "img":"http://entiretimes.com/html/school/images/teachers03.jpg"
+    }
+]

@@ -1,0 +1,14 @@
+.all-thr {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+    margin-bottom: 30px
+    
+}
+.thr-heading {
+    text-align: center;
+    background-image: url(http://entiretimes.com/html/school/images/inner_title_bg.jpg);
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}

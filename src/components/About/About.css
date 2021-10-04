@@ -1,0 +1,50 @@
+
+.about-title {
+    background-image: url(http://entiretimes.com/html/school/images/inner_title_bg.jpg);
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.gallay-bg {
+    background-image: url(http://entiretimes.com/html/school/images/gallery-bg.jpg);
+    padding: 70px;
+    margin-top: 70px;
+
+}
+.heading{
+margin-right: 30px;
+padding-top: 80px;
+}
+.heading h1{
+margin-right: 30px;
+padding-bottom: 20px;
+color:#56225E ;
+font-weight: bold;
+font-size: 55px;
+}
+.gallar-img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gallar-img > div{
+    margin: 10px;
+}
+.gallar-img img {
+    width: 250px;
+}
+.call-now{
+    margin-top: 80px;
+    background-image: url(http://entiretimes.com/html/school/images/enroll-bg.jpg);
+    text-align: center;
+    padding: 120px;
+    color: white;
+}
+.call-now h1{
+   font-size: 50px;
+   font-weight: bold;
+}
+.call-now .call:hover{
+color: #ffb607;
+}
