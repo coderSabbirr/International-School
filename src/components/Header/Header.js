@@ -19,7 +19,7 @@ const Header = () => {
       <div className="navbar-nav">
         <a className=" nav-iteam nav-home" href="/">HOME</a>
         <a className=" nav-iteam"  href="/">ABOUT</a>
-        <a className=" nav-iteam" href="/">OUR CLASSES </a>
+        <a className=" nav-iteam" href="/ourclasses">OUR CLASSES </a>
         <a className=" nav-iteam" href="/">TEACHERS</a>
         <a className=" nav-iteam" href="/">BLOGS</a>
         

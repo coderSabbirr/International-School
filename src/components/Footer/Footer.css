@@ -5,3 +5,10 @@
 .singal-content {
     padding: 30px;
 }
+.singal-content h3 {
+    color: #38ADCE;
+}
+.singal-content a {
+    text-decoration: none;
+    color: aliceblue;
+}

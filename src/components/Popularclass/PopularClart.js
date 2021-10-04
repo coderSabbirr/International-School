@@ -12,7 +12,7 @@ const PopularClart = () => {
     return (
         <div className="backgound-img">
             <h1 className="popular-class">Our Popular Classes</h1>
-            <div class="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5">
             {
                 popularCarts.slice(0,3).map(popularCart => <Popular
                 key={popularCart.key}
